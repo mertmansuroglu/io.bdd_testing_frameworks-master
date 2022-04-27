@@ -1,0 +1,139 @@
+{
+  "locator_examples": [
+    "ACCESSIBILITY_ID",
+    "CLASS_NAME",
+    "ID",
+    "NAME",
+    "XPATH",
+    "ANDROID_UI_AUTOMATOR",
+    "LINK_TEXT",
+    "PREDICATE_STRING",
+    "CLASS_CHAIN_IOS"
+  ],
+  "close_login_button": {
+    "Android": {
+      "locatorType": "XPATH",
+      "locatorValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.Button"
+    },
+    "iOS": {
+      "locatorType": "XPATH",
+      "locatorValue": "//XCUIElementTypeApplication[@name=\"Meditopia\"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]"
+    }
+  },
+  "sleep_better": {
+    "Android": {
+      "locatorType": "XPATH",
+      "locatorValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/androidx.cardview.widget.CardView/android.widget.LinearLayout/android.widget.TextView"
+    },
+    "iOS": {
+      "locatorValue": "label == \"Sleep better\"",
+      "locatorType": "PREDICATE_STRING"
+    }
+  },
+  "allow": {
+    "Android": {
+      "locatorType": "ACCESSIBILITY_ID",
+      "locatorValue": "ALLOW"
+    },
+    "iOS": {
+      "locatorValue": "ALLOW",
+      "locatorType": "ACCESSIBILITY_ID"
+    }
+  },
+  "ok": {
+    "Android": {
+      "locatorType": "ACCESSIBILITY_ID",
+      "locatorValue": "ALLOW"
+    },
+    "iOS": {
+      "locatorValue": "OK",
+      "locatorType": "ACCESSIBILITY_ID"
+    }
+  },
+  "views": {
+    "Android": {
+      "locatorValue": "//android.widget.TextView[@content-desc=\"Views\"]",
+      "locatorType": "XPATH"
+    }
+  },
+  "tabs": {
+    "Android": {
+      "locatorValue": "//android.widget.TextView[@content-desc=\"Tabs\"]",
+      "locatorType": "XPATH"
+    }
+  },
+  "scrollables": {
+    "Android": {
+      "locatorValue": "//android.widget.TextView[@content-desc=\"5. Scrollable\"]",
+      "locatorType": "XPATH"
+    }
+  },
+  "tab3": {
+    "Android": {
+      "locatorValue": "//*[@text='TAB 3']",
+      "locatorType": "XPATH"
+    }
+  },
+  "tab11": {
+    "Android": {
+      "locatorValue": "//*[@text='TAB 11']",
+      "locatorType": "XPATH"
+    }
+  },
+  "app": {
+    "Android": {
+      "locatorValue": "//android.widget.TextView[@content-desc=\"App\"]",
+      "locatorType": "XPATH"
+    }
+  },
+  "custom": {
+    "Android": {
+      "locatorValue": "//android.widget.TextView[@content-desc=\"Custom\"]",
+      "locatorType": "XPATH"
+    }
+  },
+  "id_clock": {
+    "Android": {
+      "locatorValue": "com.google.android.apps.nexuslauncher:id/clock",
+      "locatorType": "ID"
+    }
+  },
+  "id_image": {
+    "Android": {
+      "locatorValue": "com.google.android.calendar:id/image",
+      "locatorType": "ID"
+    }
+  },
+  "id_calendar_btn": {
+    "Android": {
+      "locatorValue": "com.google.android.calendar:id/done_button",
+      "locatorType": "ID"
+    }
+  },
+  "tab_content": {
+    "Android": {
+      "locatorType": "XPATH",
+      "locatorValue": "/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.TabHost/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.TextView"
+    }
+  },
+  "continue_with_mail": {
+    "iOS": {
+      "locatorValue": "//XCUIElementTypeApplication[@name=\"Meditopia\"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther",
+      "locatorType": "XPATH"
+    },
+    "Android": {
+      "locatorValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.Button",
+      "locatorType": "XPATH"
+    }
+  },
+  "mail": {
+    "iOS": {
+      "locatorValue": "value == 'Name'",
+      "locatorType": "PREDICATE_STRING"
+    },
+    "Android": {
+      "locatorValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText",
+      "locatorType": "XPATH"
+    }
+  }
+}
